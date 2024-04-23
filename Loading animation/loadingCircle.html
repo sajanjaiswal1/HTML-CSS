@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link href="stylesheet" href="style1.css">-->
+    <title>Spinner</title>
+    <style>
+    
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-start;
+            margin-top: 20px;
+
+        }
+        .circle{
+            color: hsl(230, 68%, 44%);
+        height: 200px;
+        width: 200px;
+        border-left: 5px solid;
+        border-radius: 50%;
+        animation-name: loader;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    
+    }
+    .circle2{
+        color: hsl(210, 70%, 80%);
+        height: 200px;
+        width: 200px;
+        border-left: 5px solid;
+        border-radius: 50%;
+        animation-name: loader;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+    }
+    .circle3{
+        color: brown;
+        height: 200px;
+        width: 200px;
+        border-left: 5px solid;
+        border-radius: 50%;
+        animation-name: loader;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(1, 0, 0, 1);
+    
+    }
+    .circle4{
+        color: darkgoldenrod;
+        height: 200px;
+        width: 200px;
+        border-left: 5px solid;
+        border-radius: 50%;
+        animation-name: loader;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+    
+    }
+    .circle5{
+        color: gold;
+        height: 200px;
+        width: 200px;
+        border-left: 5px solid;
+        border-radius: 50%;
+        animation-name: loader;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+    
+    }
+    .circle6{
+        color: lawngreen;
+        height: 200px;
+        width: 200px;
+        border-left: 5px solid;
+        border-radius: 50%;
+        animation-name: loader;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-out;
+    
+    }
+
+    @keyframes loader {
+        0%{
+
+        }
+        100%{
+            transform:rotate(360deg);
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="circle"></div>
+    <div class="circle2"></div> 
+    <div class="circle3"></div>
+    <div class="circle4"></div>
+    <div class="circle5"></div>
+    <div class="circle6"></div>
+    
+</div>
+   
+</body>
+</html>
