@@ -1,0 +1,110 @@
+﻿
+.navbar {
+    background-color: #2260bf !important;
+    margin-top: 4px;
+}
+
+
+a{
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.logo-img {
+    height: 34px;
+}
+
+.banner-gif {
+    height: 60px;
+    border-radius: 5px
+}
+header2 {
+    height: 100px;
+    width: 100%;
+    border-radius: 5px
+}
+.text1 {
+    font-size: 62px;
+}
+.banner3 {
+    /*padding-left: 125px;*/
+    margin-top: 10px;
+    height: 199px;
+    border-radius: 5px;
+}
+.ban1 {
+    height: 534px;
+    border-radius: 5px;
+}
+
+.banner2 {
+    margin-top: 10px;
+    height: 107px;
+    border-radius: 5px;
+}
+.banner4 {
+    height: 128px;
+    border-radius: 5px;
+}
+.banner5 {
+    height: 150px;
+    border-radius: 5px;
+}
+.para2{
+    margin-top: 24px;
+    font-weight:bold;
+}
+.para3 {
+    margin: 49px;
+    padding: 0;
+    margin-left: 116px;
+}
+.master {
+    background-color: aliceblue;
+}
+.ad1 {
+    padding-right: 30px;
+    border-radius: 5px;
+    height: 299px;
+}
+.samachar{
+    font-size: 50px;
+    font-weight:bold;
+    color:blue;
+    margin-bottom: 10px
+}
+.heading{
+    font-size:30px;
+    font-weight:bold;
+}
+.samachar1 {
+    height: 368px;
+}
+.main{
+    padding-left:0;
+}
+.small-pic {
+    height: 110px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.para4{
+    font-size:20px;
+    margin-left:40px;
+    margin-top: 20px;
+}
+.small-news{
+    margin-top:20px;
+}
+.small {
+    margin-top: 20px;
+}
+.vertical-hr {
+    width: 1px;
+    height: 1px;
+    background-color: black;
+    border: none;
+    transform: rotate(90deg);
+    margin: 0 -6px; /* Adds 20px margin on the left and right */
+    margin-top:30px;
+}
